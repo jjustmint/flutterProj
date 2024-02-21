@@ -16,7 +16,7 @@ class ShoppingListItem extends StatelessWidget {
   }) : super(key: ObjectKey(product));
 
   final Product product;
-  final bool inCart;
+  final bool inCart; //true = อยู่ในตระกร้า , false = ไม่อยู่ในตระกร้า
   final CartChangedCallback onCartChanged;
 
   Color _getColor(BuildContext context) {
